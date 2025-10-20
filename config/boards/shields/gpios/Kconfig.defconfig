@@ -1,0 +1,6 @@
+if SHIELD_GPIOS
+
+config ZMK_KEYBOARD_NAME
+    default "gpios"
+
+endif

@@ -1,3 +1,4 @@
+name: gpios
 build:
   settings:
     board_root: .
