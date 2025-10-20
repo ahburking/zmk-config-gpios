@@ -40,8 +40,8 @@
 
         C_LAYER {
             bindings = <
-&bootloader     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &none     &none     &none     &none     &none     &none     &sys_reset
-&bt BT_CLR      &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2    &bt BT_DISC 3     &none     &none     &none     &none     &none     &none     &none
+&bootloader     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &none     &none     &none     &none     &none     &none     &none     &sys_reset
+&bt BT_CLR      &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2    &none     &none     &none     &none     &none     &none     &none     &none
 &bt BT_CLR_ALL  &bt BT_NXT       &bt BT_PRV       &none     &none     &none     &none     &none     &none     &none     &none
                    &none         &none                  &none                     &none      &none
             >;
